@@ -70,3 +70,24 @@ The system aims to **detect both known and unknown cyberattacks** while minimizi
                  |
                  v
         [Evaluation, Visualization, and Dashboard Output]
+
+├── data/
+│   ├── kddcup99.csv
+│   ├── cicids2017.csv
+│   └── simulated_network.csv
+├── notebooks/
+│   ├── KDD99_Intrusion_Detection_Final_with_OSINT_main.ipynb
+├── src/
+│   ├── cve_ingestion_module.py
+│   ├── feature_preprocessing.py
+│   ├── model_training.py
+│   ├── osint_integration.py
+│   └── evaluation_metrics.py
+├── results/
+│   ├── confusion_matrices/
+│   ├── roc_curves/
+│   └── feature_importance.png
+├── docs/
+│   └── Thesis_Final_Report_Group22.pdf
+├── README.md
+└── requirements.txt
